@@ -38,9 +38,9 @@ schedule.every().day.at("12:00").do(edital)
 #schedule.every().day.at("16:00").do(edital)
 schedule.every().day.at("18:00").do(edital)
 #schedule.every().day.at("20:00").do(edital)
-
-#while True:
-#    schedule.run_pending()
-#    time.sleep(5)
-
 edital()
+while True:
+    schedule.run_pending()
+    time.sleep(15)
+
+

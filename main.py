@@ -31,13 +31,13 @@ def edital():
         print(lista25)
         bot.send_message(my_id, lista25[1])
 
-#schedule.every().day.at("08:00").do(edital)
+schedule.every().day.at("08:00").do(edital)
 #schedule.every().day.at("10:00").do(edital)
-#schedule.every().day.at("12:00").do(edital)
+schedule.every().day.at("12:00").do(edital)
 #schedule.every().day.at("14:00").do(edital)
 #schedule.every().day.at("16:08").do(edital)
 #schedule.every().day.at("16:00").do(edital)
-#schedule.every().day.at("18:00").do(edital)
+schedule.every().day.at("18:00").do(edital)
 #schedule.every().day.at("20:00").do(edital)
 
 #while True:

@@ -11,7 +11,6 @@ load_dotenv()
 # Acessa a variável
 token = os.getenv("TELEGRAM_TOKEN")
 my_id = os.getenv("MY_ID")
-input("aqui")
 bot = telebot.TeleBot(token)
 
 
